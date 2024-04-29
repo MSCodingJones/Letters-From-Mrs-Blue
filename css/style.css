@@ -1,0 +1,91 @@
+:root {
+    --lettersGreen: hsl(177, 93%, 24%);
+    --lettersGreen2: hsl(177, 92%, 60%);
+    --font1:'Playfair Display', serif;
+    --font2: 'Source Sans Pro', sans-serif;
+}
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+br {
+    display: block;
+    margin: 20px 0;
+}
+
+/* --------------------------------------------------------------------HEADER---------------------------------------------------- */
+
+/* TOP HEADER */
+
+#heroSection {
+    padding-bottom: 100px;
+}
+
+#bioSection {
+    background-color: var(--lettersGreen);
+    padding: 50px 0;
+}
+
+#videoSection{
+    padding: 50px;
+}
+
+#footerSection{
+    background-color: black;
+}
+
+.name {
+    font-family: var(--font1);
+    font-size: 48px;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.underline {
+    border: 2px solid;
+    color: var(--lettersGreen2);
+    width: 50px;
+}
+
+.bio {
+    font-family: "Source Sans Pro", arial, sans-serif;
+    display: block;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    margin: 10px 18px;
+    line-height: 34.5px;
+}
+
+.video-1 {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.video-2 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 32px;
+    margin-bottom: 28px;
+}
+
+.copyright {
+    color: gray;
+    margin: 0 auto;
+    padding: 55px 30px;
+    font-size: 15px;
+}
