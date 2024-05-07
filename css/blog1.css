@@ -1,0 +1,89 @@
+.kalam-light {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    margin: 30px 20%;
+    list-style-type: none;
+    background-color:rgb(255, 239, 168);
+}
+
+:root {
+    --font: "Kalam", cursive; 
+}
+
+* {box-sizing: border-box;}
+
+a {
+    text-decoration: none;
+}
+
+br {
+    display: block;
+    margin: 20px 0;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+.letter-section {
+    background-color: rgb(250, 255, 220);
+    padding: 80px;
+    border: 2px solid rgba(185, 92, 92, 0.315);
+}
+
+.letter {
+    font-family: var(--font);
+    text-indent: 35px;
+    font-size: 20px;
+    text-decoration: underline rgba(0, 0, 0, 0.247);
+    text-underline-offset: 5px;
+}
+
+.title {
+    font-family: var(--font);
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    
+    body {
+        margin: 10px;
+        list-style-type: none;
+        background-color:rgb(255, 239, 168);
+    }
+
+    .letter-section {
+        background-color: rgb(250, 255, 220);
+        padding: 30px;
+        border: 2px solid rgba(185, 92, 92, 0.315);
+    }
+
+    .letter {
+        font-family: var(--font);
+        text-indent: 35px;
+        font-size: 18px;
+        text-decoration: underline rgba(0, 0, 0, 0.247);
+        text-underline-offset: 5px;
+    }
+    
+    .title {
+        font-family: var(--font);
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+}

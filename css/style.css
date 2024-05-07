@@ -27,10 +27,6 @@ br {
 
 /* TOP HEADER */
 
-#heroSection {
-    padding-bottom: 100px;
-}
-
 #bioSection {
     background-color: var(--lettersGreen);
     padding: 50px 0;
@@ -70,16 +66,15 @@ br {
 }
 
 .video-1 {
-    display: block;
     margin: 0 auto;
+    width: 100%;
     margin-bottom: 50px;
 }
 
 .video-2 {
-    display: block;
     margin: 0 auto;
     width: 100%;
-    padding: 0 32px;
+    padding: auto 32px;
     margin-bottom: 28px;
 }
 
@@ -88,4 +83,11 @@ br {
     margin: 0 auto;
     padding: 55px 30px;
     font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    
+    .video-2 {
+        height: 192px;
+    }
 }
