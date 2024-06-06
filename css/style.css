@@ -3,6 +3,25 @@
     --lettersGreen2: hsl(177, 92%, 60%);
     --font1:'Playfair Display', serif;
     --font2: 'Source Sans Pro', sans-serif;
+    --font3: "Kalam", cursive; 
+}
+
+.kalam-light {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
 }
 
 * {box-sizing: border-box;}
@@ -25,20 +44,72 @@ br {
 
 /* --------------------------------------------------------------------HEADER---------------------------------------------------- */
 
+/* NAV BAR */
+
+header {
+    background-color: #4bbcb7;
+}
+
+.heading {
+    text-align: center;
+    background-color: #44cfb3;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.329);
+    padding: 5px;
+}
+
+.nav-link {
+    border: 2px solid rgba(0, 0, 0, 0.329);
+    border-radius: 25px;
+    padding: 18px;
+}
+
+.navbar-brand {
+    font-family: var(--font3);
+    font-size: larger;
+    text-decoration: underline;
+    color: rgb(29, 59, 66);
+}
+
+.letter-day {
+    background-color: rgb(111, 196, 196);
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    border-radius: 25px;
+}
+
+#letterDay {
+    font-size: larger;
+    font-weight: bold;
+}
+
 /* TOP HEADER */
 
-#bioSection {
+
+#bioSection1 {
     background-color: var(--lettersGreen);
     padding: 50px 0;
+    border: 5px solid rgba(0, 0, 0, 0.329)
+}
+
+#bioSection2 {
+    margin-top: 40px;
+    background-color: hsl(177, 46%, 39%);
+    padding: 70px 130px;
+    border: 5px solid rgba(0, 0, 0, 0.329)
+}
+
+#bioSection3 {
+    margin-top: 40px;
+    background-color: hsl(181, 71%, 62%);
+    padding: 70px 130px;
+    border: 5px solid rgba(0, 0, 0, 0.329)
 }
 
 #videoSection{
     padding: 50px;
 }
 
-#footerSection{
-    background-color: black;
-}
 
 .name {
     font-family: var(--font1);
@@ -65,10 +136,22 @@ br {
     line-height: 34.5px;
 }
 
+.bio3 {
+    font-family: "Source Sans Pro", arial, sans-serif;
+    display: block;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin: 10px 18px;
+    line-height: 34.5px;
+}
+
 .video-1 {
     margin: 0 auto;
     width: 100%;
     margin-bottom: 50px;
+    border: 5px solid rgba(0, 0, 0, 0.329)
 }
 
 .video-2 {
@@ -76,6 +159,51 @@ br {
     width: 100%;
     padding: auto 32px;
     margin-bottom: 28px;
+}
+
+.letter-title {
+    font-family: var(--font1);
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.review-title {
+    font-family: var(--font1);
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+#envelopeStatic {
+    width: 250px;
+    position: absolute;
+    transition: .1s ease;
+}
+
+#envelopeStatic:hover {
+    width: 250px;
+    opacity: 0;
+}
+
+#envelopeActive {
+    width: 250px;
+}
+
+#coilyHairCover {
+    width: 350px;
+    transition: .5s ease;
+}
+
+#coilyHairCover:hover {
+    width: 375px;
+    border: 3px solid var(--lettersGreen2);
+}
+
+#footerSection{
+    background-color: black;
 }
 
 .copyright {
@@ -89,5 +217,19 @@ br {
     
     .video-2 {
         height: 192px;
+    }
+
+    #bioSection2 {
+        margin-top: 40px;
+        background-color: hsl(177, 46%, 39%);
+        padding: 0;
+        border: 5px solid rgba(0, 0, 0, 0.329)
+    }
+
+    #bioSection3 {
+        margin-top: 40px;
+        background-color: hsl(181, 71%, 62%);
+        padding: 0;
+        border: 5px solid rgba(0, 0, 0, 0.329)
     }
 }

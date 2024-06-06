@@ -1,0 +1,134 @@
+.kalam-light {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-image: url(/media/letter\ background.png);
+
+}
+
+main {
+    font-family: var(--font);
+    margin: 30px 20%;
+    list-style-type: none;
+    background-color: rgb(250, 255, 220);
+    padding: 80px;
+    border: 2px solid rgba(185, 92, 92, 0.315);
+}
+
+:root {
+    --font: "Kalam", cursive; 
+}
+
+* {box-sizing: border-box;}
+
+a {
+    text-decoration: none;
+}
+
+br {
+    display: block;
+    margin: 20px 0;
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+
+.return {
+    text-decoration: underline;
+}
+
+.details {
+    list-style-type: none;
+    padding-top: 20px;
+    line-height: 2.5;
+    position: relative;
+    right: 30px;
+    font-size: 30px;
+}
+
+.author {
+    line-height: 1.5;
+}
+
+.amazon-link {
+    text-decoration: underline;
+}
+
+.synopsis {
+    border: 3px solid black;
+    margin-top: 40px;
+    padding: 30px;
+    font-size: 23px;
+}
+
+.review {
+    line-height: 1.8;
+    font-size: 23px;
+}
+
+#footerSection{
+    background-color: black;
+}
+
+.copyright {
+    color: gray;
+    margin: 0 auto;
+    padding: 55px 30px;
+    font-size: 15px;
+}
+
+.disclaimer {
+    color: gray;
+    margin: 0 auto;
+    padding: 55px 30px;
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    
+    main {
+        font-family: var(--font);
+        margin: 5px;
+        list-style-type: none;
+        background-color: rgb(250, 255, 220);
+        padding: 5px;
+        border: 2px solid rgba(185, 92, 92, 0.315);
+    }
+
+    .details {
+        list-style-type: none;
+        text-align: center;
+        padding-top: 20px;
+        line-height: 2;
+        font-size: 25px;
+    }
+
+    .title {
+        line-height: 1.5;
+        padding: 20px 0;
+    }
+    
+    .review {
+        line-height: 1.5;
+        padding: 20px 0;
+    }
+
+    .illustrator {
+        line-height: 1.5;
+        padding: 20px 0;
+    }
+}
