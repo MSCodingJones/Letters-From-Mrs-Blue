@@ -7,62 +7,105 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>lettersFromMrsBlue</title>
 </head>
 <body>
     <header class="header" id="header">
-        <div class="container-fluid pt-2">
-            <nav class="navbar navbar-expand-lg top-nav" id="topNav">
-                <h1 class="heading">
-                    <a href="#" class="navbar-brand">Letters From Mrs. Blue</a>
-                </h1>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item text-uppercase">
-                            <div class="letter-day mx-5" id="letterDay">
-                                <a href="#letterSection" class="nav-link px-5" id="letterDay">Letters</a>
-                            </div>
-                        </li>
-                        <li class="nav-item text-uppercase">
-                            <div class="letter-day mx-5" id="letterDay">
-                                <a href="#reviewSection" class="nav-link" id="letterDay">Book Reviews</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
         <section class="top-section" id="heroSection">
-            <img src="media/heroimg.jpg" alt="" class="img-fluid hero-image w-100 pb-2 pb-lg-5">
+        <div class="container-fluid">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg top-nav" id="topNav">
+                        <h1 class="heading" id="siteTitle">
+                            <a href="#" style="pointer-events: none" class="navbar-brand">Bridgette Donald-Blue</a>
+                        </h1>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </nav>
+                </div>
+                <div class="row">
+                    <div class="col" id="tagline">
+                        <h3 id="taglineText">California teacher of the Year 2023</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <video src="media/video/homepageVideo.mp4" muted loop autoplay id="heroVideo"></video>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="text-uppercase text-center" id="blurb1Title">Letters from Mrs. Blue</h1>
+                        </div>
+                    </div>
+                    <a href="#">
+                    <div class="row justify-content-center">
+                        <div class="col-auto">
+                            <div class="text-center text-uppercase" id="blurb1Link">
+                                    <p>Click here to read</p>
+                                    <p>about my journey of growth and gratitude</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="row" id="blurb1Button">
+                    </div>
+                </div>
+            </div>
         </section>
     </header>
     <main class="main" id="main">
         <div class="bio-section" id="bioSection1">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col text-center">
-                        <span class="name">Bridgette Donald-Blue</span>
-                        <hr class="underline mx-auto mt-4"/>
-                    </div>
-                </div>
-                <div class="row bio-row pt-4 w-100">
-                    <div class="col-lg-6">
-                        <p class="bio">Bridgette Donald-Blue is a teacher through and through! She is a native of Miami, Florida who was raised in Ocala, Florida by her great grandmother and her aunt who were intensely encouraging about education.  Bridgette left Florida to attend Howard University where she majored in Psychology and English. Her original plan was to become a lawyer, but a chance encounter with the Teach for America organization during her senior year set her on a new path. Investing well beyond the two-year commitment required for Teach for America, today, Bridgette has over 30 years of teaching experience. She holds a Master’s degree in Educational Administration from Cal State University Dominguez Hills (CSUDH) and has been a National Board Certified Teacher since 2004. She served as an adjunct professor at UCLA in the Center X National Board for Certification and CSUDH in the teacher credentialing program. When she’s not teaching, Bridgette is also an avid supporter and volunteer for The Girls Scouts of America.
-                        </p>
-                    </div>
-                    <div class="col-lg-6">
-                        <iframe width="1232" height="616" src="https://www.youtube.com/embed/xhDNIrF4ey0?si=UaMsApVLR9Ftb70q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video-1"></iframe>
-                        </p>
-                    </div>
+                    <img src="media/1.png" alt="">
                 </div>
             </div>
         </div>
-        <div class="letter-section" id="letterSection">
+        <div class="section" id="cDC">
+            <div class="container-fluid">
+                <div class="row">
+                    <img src="media/2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section" id="tEA">
+            <div class="container-fluid">
+                <div class="row">
+                    <img src="media/3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container-fluid">
+                <div class="row">
+                    <img src="media/4.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container-fluid">
+                <div class="row">
+                    <img src="media/5.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container-fluid">
+                <div class="row">
+                    <img src="media/6.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- <div class="letter-section" id="letterSection">
             <div class="container">
                 <div class="row">
                     <div class="col text-center pt-5">
@@ -125,7 +168,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </main>
     <footer class="footer" id="footer">
         <div class="footer-section" id="footerSection">
