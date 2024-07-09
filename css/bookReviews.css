@@ -1,0 +1,147 @@
+:root {
+    --lettersGreen: #018C96;
+    --lettersGreen2: #016A66;
+    --lettersGreen3: #0B160F;
+    --letterOrange1: #EB5401;
+    --letterOrange2: #EFB52B;
+    --letterWhite: #F6EBF9;
+    --font1:'Playfair Display', serif;
+    --font2: 'Source Sans Pro', sans-serif;
+    --font3: "Kalam", cursive; 
+    --font4: "Teachers", sans-serif;
+    --font5: "Style Script", cursive;
+}
+
+.kalam-light {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.teachers {
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font4);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+br {
+    display: block;
+    margin: 20px 0;
+}
+
+/* --------------------------------------------------------------------HEADER---------------------------------------------------- */
+
+/* NAV BAR */
+
+
+.heading {
+    border-radius: 15px;
+    padding-bottom: 0px;
+    filter: drop-shadow(2px 3px rgba(0, 0, 0, 0.194));
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+#siteTitle {
+    color: var(--lettersGreen2);
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+#siteTitle:hover {
+    color: var(--lettersGreen2);
+    transform: scale(1.1);
+}
+
+#tagline {
+    color: var(--lettersGreen);
+    background-color: white;
+    padding: 0px 65px;
+    padding-bottom: 30px;
+}
+
+#taglineText {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--letterOrange1);
+}
+
+.nav-link {
+    color: var(--lettersGreen);
+}
+
+.navbar-brand {
+    font-family: var(--font5);
+    padding-left: 10px;
+    font-size: 70px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: var(--lettersGreen)
+}
+
+.navbar-brand:hover {
+    color: var(--letterOrange1);
+    transition: .5s ease;
+}
+
+.letter-day {
+    text-decoration: underline;
+}
+
+#letterDay {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.review-title {
+    font-family: var(--font4);
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    color: var(--lettersGreen);
+}
+
+#coilyHairCover {
+    width: 350px;
+    transition: .5s ease;
+}
+
+#coilyHairCover:hover {
+    transform: scale(1.1);
+    border: 3px solid var(--lettersGreen2);
+}
+
+#footerSection{
+    min-height: calc(100vh - 900px);
+    margin-top: 170px;
+}

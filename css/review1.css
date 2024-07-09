@@ -17,17 +17,16 @@
 }
 
 body {
-    background-image: url(/media/letter-background.png);
-
+    background-color: #016A66;
 }
 
 main {
     font-family: var(--font);
     margin: 30px 20%;
     list-style-type: none;
-    background-color: rgb(250, 255, 220);
+    background-color: white;
     padding: 80px;
-    border: 2px solid rgba(185, 92, 92, 0.315);
+    border: 2px solid #EB5401;
 }
 
 :root {
@@ -81,7 +80,7 @@ br {
 }
 
 #footerSection{
-    background-color: black;
+    background-color: white;
 }
 
 .copyright {
@@ -104,9 +103,9 @@ br {
         font-family: var(--font);
         margin: 5px;
         list-style-type: none;
-        background-color: rgb(250, 255, 220);
+        background-color: white;
         padding: 5px;
-        border: 2px solid rgba(185, 92, 92, 0.315);
+        border: 2px solid #EB5401;
     }
 
     .details {
