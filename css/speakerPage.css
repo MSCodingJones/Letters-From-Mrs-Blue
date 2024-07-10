@@ -139,12 +139,13 @@ br {
     background-color: white;
 }
 
-.letter-title {
-    font-family: var(--font1);
+.content-title {
+    font-family: var(--font4);
     font-size: 48px;
     font-weight: 400;
     font-style: normal;
     text-decoration: underline;
+    color: var(--lettersGreen);
 }
 
 #footerSection{
@@ -157,28 +158,4 @@ br {
     margin: 0 auto;
     padding: 55px 30px;
     font-size: 15px;
-}
-
-.review-title {
-    font-family: var(--font4);
-    font-size: 48px;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: underline;
-    color: var(--lettersGreen);
-}
-
-#coilyHairCover {
-    width: 350px;
-    transition: .5s ease;
-}
-
-#coilyHairCover:hover {
-    transform: scale(1.1);
-    border: 3px solid var(--lettersGreen2);
-}
-
-#footerSection{
-    min-height: calc(100vh - 900px);
-    margin-top: 170px;
 }
