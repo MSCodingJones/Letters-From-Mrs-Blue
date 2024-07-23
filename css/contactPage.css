@@ -166,3 +166,17 @@ br {
     padding: 55px 30px;
     font-size: 15px;
 }
+
+@media (max-width: 768px) {
+
+    #contactProfile {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    #contactProfile {
+        width: 25%;
+    }
+}
