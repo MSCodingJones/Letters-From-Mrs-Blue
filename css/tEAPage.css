@@ -81,6 +81,22 @@ br {
     transform: scale(1.1);
 }
 
+.nav-link {
+    color: var(--lettersGreen);
+}
+
+.navbar-brand {
+    font-family: var(--font5);
+    padding-left: 10px;
+    font-weight: 600;
+    color: var(--lettersGreen)
+}
+
+.navbar-brand:hover {
+    color: var(--letterOrange1);
+    transition: .5s ease;
+}
+
 #tagline {
     color: var(--lettersGreen);
     background-color: white;
@@ -90,26 +106,9 @@ br {
 
 #taglineText {
     font-weight: 700;
-    font-size: 40px;
     color: var(--letterOrange1);
 }
 
-.nav-link {
-    color: var(--lettersGreen);
-}
-
-.navbar-brand {
-    font-family: var(--font5);
-    padding-left: 10px;
-    font-size: 70px;
-    font-weight: 600;
-    color: var(--lettersGreen)
-}
-
-.navbar-brand:hover {
-    color: var(--letterOrange1);
-    transition: .5s ease;
-}
 
 
 #letterDay {

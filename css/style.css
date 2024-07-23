@@ -81,6 +81,22 @@ br {
     transform: scale(1.1);
 }
 
+.nav-link {
+    color: var(--lettersGreen);
+}
+
+.navbar-brand {
+    font-family: var(--font5);
+    padding-left: 10px;
+    font-weight: 600;
+    color: var(--lettersGreen)
+}
+
+.navbar-brand:hover {
+    color: var(--letterOrange1);
+    transition: .5s ease;
+}
+
 #tagline {
     color: var(--lettersGreen);
     background-color: white;
@@ -90,25 +106,7 @@ br {
 
 #taglineText {
     font-weight: 700;
-    font-size: 40px;
     color: var(--letterOrange1);
-}
-
-.nav-link {
-    color: var(--lettersGreen);
-}
-
-.navbar-brand {
-    font-family: var(--font5);
-    padding-left: 10px;
-    font-size: 70px;
-    font-weight: 600;
-    color: var(--lettersGreen)
-}
-
-.navbar-brand:hover {
-    color: var(--letterOrange1);
-    transition: .5s ease;
 }
 
 
@@ -127,12 +125,31 @@ br {
 }
 
 #heroVideo {
-    padding: 0;
-    margin-bottom: 30px;
-    object-fit: cover;
-    object-position: 25% 25%;
-    height: 800px;
+
 }
+
+@media (max-width: 768px) {
+
+    #heroVideo {
+        padding: 0;
+        margin-bottom: 30px;
+        object-fit: cover;
+        object-position: 55% 25%;
+        height: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    #heroVideo {
+        padding: 0;
+        margin-bottom: 30px;
+        object-fit: cover;
+        object-position: 25% 25%;
+        height: 800px;
+    }
+}
+
 
 #topNav {
     background-color: white;
@@ -158,5 +175,19 @@ br {
 }
 
 #carouselImage {
-    width: 40%;
+    
+}
+
+@media (max-width: 768px) {
+
+    #carouselImage {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    #carouselImage {
+        width: 40%;
+    }
 }
