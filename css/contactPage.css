@@ -144,6 +144,13 @@ br {
     color: var(--lettersGreen);
 }
 
+.content-text {
+    font-family: var(--font4);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--lettersGreen);
+}
+
 .contact-direct {
     color: var(--letterOrange1);
     font-size: 30px;
