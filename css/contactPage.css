@@ -149,6 +149,13 @@ br {
     font-size: 30px;
 }
 
+@media (max-width: 768px) {
+
+    .email {
+        font-size: 20px;
+    }
+}
+
 .email {
     color: var(--lettersGreen);
     font-weight: bold;

@@ -160,8 +160,33 @@ br {
     font-size: 48px;
     font-weight: 400;
     font-style: normal;
-    text-decoration: underline;
     color: var(--lettersGreen);
+}
+
+.content-title {
+    font-family: var(--font4);
+    font-weight: 400;
+    line-height: 45px;
+    font-style: normal;
+    color: var(--lettersGreen);
+}
+
+.contact-direct {
+    color: var(--letterOrange1);
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .email {
+        font-size: 20px;
+    }
+}
+
+.email {
+    color: var(--lettersGreen);
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 #coilyHairCover {

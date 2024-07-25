@@ -136,6 +136,14 @@ br {
     background-color: white;
 }
 
+.content-title {
+    font-family: var(--font4);
+    font-weight: 400;
+    line-height: 45px;
+    font-style: normal;
+    color: var(--lettersGreen);
+}
+
 .letter-title {
     font-family: var(--font4);
     font-size: 48px;

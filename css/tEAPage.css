@@ -145,6 +145,17 @@ br {
     color: var(--lettersGreen);
 }
 
+.content-text {
+    font-family: var(--font4);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--lettersGreen);
+}
+
+#imgLink {
+    width: 800px;
+}
+
 #footerSection{
     min-height: calc(100vh - 900px);
     margin-top: 170px;

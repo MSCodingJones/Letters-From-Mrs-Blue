@@ -138,8 +138,8 @@ br {
 
 .content-title {
     font-family: var(--font4);
-    font-size: 48px;
     font-weight: 400;
+    line-height: 45px;
     font-style: normal;
     color: var(--lettersGreen);
 }
